@@ -1,0 +1,19 @@
+1. Network Exposure (Nmap)
+- No open TCP ports detected
+- Minimal external attack surface
+
+2. System Hardening (Lynis)
+- Single responsive DNS resolver detected
+- Home directory permissions warning
+- Multiple performance-related warnings (non-security)
+
+3. Credential Security (John the Ripper)
+- Password audit performed
+- Result: (Cracked / Not cracked)
+
+4. Malware & Rootkit Scan (Chkrootkit)
+- No rootkits detected
+
+5. Monitoring & Logging (auditd)
+- auditd installed and running
+- User login events logged
