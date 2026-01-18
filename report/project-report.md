@@ -50,25 +50,7 @@ Chkrootkit	Rootkit & malware detection
 Auditd	Continuous security auditing & logging
 Linux Terminal	Command execution & evidence generation
 
-6. System Architecture
-+-----------------------------+
-|       Kali Linux OS         |
-|                             |
-|  +---------+   +---------+ |
-|  |  Nmap   |   |  Lynis  | |
-|  +---------+   +---------+ |
-|        |             |     |
-|  +---------+   +---------+ |
-|  |  John   |   |Chkrootkit|
-|  +---------+   +---------+ |
-|        |             |     |
-|  +-----------------------+ |
-|  |        Auditd         | |
-|  +-----------------------+ |
-|                             |
-+-----------------------------+
-
-7. Methodology (Step-by-Step Execution)
+6. Methodology (Step-by-Step Execution)
 Step 1: Project Setup
 mkdir cyberaudit_project
 cd cyberaudit_project
@@ -146,7 +128,7 @@ Real-time audit logging enabled
 Kernel-level event monitoring active
 Compliance-ready logging framework established
 
-8. Consolidated Findings
+7. Consolidated Findings
 Area	Status
 Network Exposure	Secure
 Password Security	Strong
@@ -154,7 +136,7 @@ Malware Presence	Not Detected
 System Hardening	Moderate
 Logging & Monitoring	Enabled
 
-9. Future Enhancements
+8. Future Enhancements
 
 Add Fail2Ban for brute-force prevention
 Configure custom Auditd rules
@@ -162,12 +144,13 @@ Integrate logs with ELK / Wazuh
 Automate report generation
 Add compliance mapping (CIS, ISO 27001)
 
-10. Conclusion
+9. Conclusion
 
 This project demonstrates a realistic, ethical, and industry-relevant approach to cybersecurity auditing. Instead of artificial hacking scenarios, it focuses on defensive security, which is the backbone of enterprise cybersecurity operations.
 The system successfully:
 
-Identified security gaps
+10.Identified security gaps
+
 Validated system resilience
 Established continuous monitoring
 Produced verifiable audit evidence
